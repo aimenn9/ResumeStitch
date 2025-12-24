@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+% ModernCV themes
+\moderncvstyle{banking} 
+\moderncvcolor{black}
+\nopagenumbers{}
+
+\usepackage[scale=0.9]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+% --- PERSONAL DATA ---
+\firstname{Name}
+\familyname{Name}
+\address{Montreal, Canada}{}
+\mobile{514-555-5555}
+\email{email@email.com}
+\social[linkedin]{linkedin.com/in/yourprofile}
+\social[github]{github.com/yourprofile}
+\extrainfo{\textbf{Language:} French, English}
+
+\begin{document}
+\makecvtitle
+
+% --- EDUCATION ---
+\section{Education}
+\cventry{}{École de technologie supérieure (ÉTS)}{Bachelor’s in Software Engineering}{2025}{Montreal}{}
+\cventry{}{Collège de Maisonneuve}{Diploma of College Studies in Natural Sciences}{2020}{Montreal}{}
+
+% --- TECHNICAL SKILLS (from JSON) ---
+\section{Technical Skills}
+\BLOCK{ for category in technical_skills }
+    \cvitem{\VAR{category.label}}{\VAR{category['items']}}
+\BLOCK{ endfor }
+
+% --- PROFESSIONAL EXPERIENCE (from JSON)---
+\section{Professional Experience}
+\BLOCK{ for experience in experiences }
+\cventry{\VAR{experience.date}}{\VAR{experience.city}}{\VAR{experience.position}}{\VAR{experience.comments}}{}{
+\begin{itemize}\itemsep0.2em
+    \BLOCK{ for bullet in experience.bullets }
+    \item \VAR{bullet}
+    \BLOCK{ endfor }
+\end{itemize}}
+\BLOCK{ endfor }
+
+% --- PROJECTS (from JSON) ---
+\section{Academic \& Personal Projects}
+\BLOCK{ for project in projects }
+\cvitem{\VAR{project.title}}{
+\begin{itemize}\itemsep0.2em
+    \BLOCK{ for bullet in project.bullets }
+    \item \VAR{bullet}
+    \BLOCK{ endfor }
+\end{itemize}}
+\par\addvspace{.6\baselineskip}
+\BLOCK{ endfor }
+
+\end{document}
