@@ -1,0 +1,30 @@
+[
+  {
+    "experience":{
+      "position": "position title",
+      "date": "{start} -{end}",
+      "city": "Company, City",
+      "comments": "additional informations, for example: internships; can be left empty",
+      "Options": [
+        {
+          "types": [
+            "keywords",
+            "related job titles",
+            "related technologies"
+          ],
+          "bullets": [
+            "bullet points describing the position"
+          ]
+        },
+        {
+          "types": [],
+          "bullets": []
+        },
+        {
+          "types": [],
+          "bullets": []
+        }
+      ]
+    }
+  }
+]

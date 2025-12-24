@@ -1,0 +1,7 @@
+
+  [
+    {"label":"Languages","items":"C (GNU11, Memory Mgmt), C++17 (STL, OpenMP), Java (SE, Concurrency), Python 3 (AsyncIO), SQL (PL/SQL), C# (.NET 8)."},
+    {"label":"Systems & Core","items":"Unix/Linux API, SIMD Intrinsics, Multithreading, Socket Programming, Algorithms (Minimax, A*), Data Structures."},
+    {"label":"Cloud & DevOps","items":"Docker, Kubernetes, GitLab CI/CD, RabbitMQ, Microservices, Chaos Engineering, Linux (Bash)."},
+    {"label":"Data & AI","items":"PostgreSQL, Oracle DB (Star Schemas), Scikit-Learn, OpenCV, Pandas, NumPy, ETL Pipelines."}
+  ]

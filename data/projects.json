@@ -1,0 +1,33 @@
+[
+  {
+    "element": {
+      "project": "Main project name",
+      "Options": [
+        {
+          "project": "Custom Unix Shell Implementation | Academic Project",
+          "subtitle": "type or field to help the LLM chose",
+          "title": "slighty reformulated title; To fit the job description",
+          "types": [
+            "keywords",
+            "position names",
+            "relevant fields"
+          ],
+          "bullets": [
+            "bullet points describing the project"
+          ],
+          "technologies": [
+            "technologies used in the project"
+          ]
+        },
+        {
+          "project": "",
+          "subtitle": "",
+          "title": "",
+          "types": [],
+          "bullets": [],
+          "technologies": []
+        }
+      ]
+    }
+  }
+]

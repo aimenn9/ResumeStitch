@@ -1,0 +1,38 @@
+[
+  {
+    "experience":{
+      "position": "Software Engineer Intern",
+      "date": "January - August 2024",
+      "city": "Bell, Montreal",
+      "comments": "Internship 2-3",
+      "Options": [
+        {
+          "types": [
+            "Full Stack"
+          ],
+          "bullets": [
+            "Orchestrated the migration of 4 corporate websites from WordPress to a Jamstack architecture (Hugo), serving as the solo technical lead for architectural decisions and stack selection.",
+            "Engineered a modular Component Library (Shortcodes) and comprehensive documentation system, empowering non-technical teams (HR/Marketing) to deploy complex layouts without engineering support"
+          ]
+        },
+        {
+          "types": [
+            "Backend roles"
+          ],
+          "bullets": [
+            "Architected a high-performance static web infrastructure using Hugo, replacing dynamic WordPress deployments to improve site security, load times, and scalability."
+          ]
+        },
+        {
+          "types": [
+            "UI Engineering",
+            "Frontend Developer"
+          ],
+          "bullets": [
+            "Modernized the frontend architecture of 4 corporate sites, migrating from monolithic WordPress themes to a component-based Hugo implementation."
+          ]
+        }
+      ]
+    }
+  }
+]

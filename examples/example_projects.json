@@ -1,0 +1,76 @@
+[
+  {
+    "element": {
+      "project": "Custom Unix Shell Implementation | Academic Project",
+      "Options": [
+        {
+          "project": "Custom Unix Shell Implementation | Academic Project",
+          "subtitle": "The \"General Software Engineer\" Approach",
+          "title": "Custom Unix Shell Implementation | Academic Project",
+          "types": [
+            "Backend roles",
+            "High performance"
+          ],
+          "bullets": [
+            "Engineered a functional command-line interface in C (GNU11), utilizing core Unix system calls (fork, exec, waitpid) to manage process lifecycle and execution flow."
+          ],
+          "technologies": [
+            "C",
+            "Git"
+          ]
+        },
+        {
+          "project": "Custom Unix Shell Implementation | Academic Project",
+          "subtitle": "The \"Systems & Embedded\" Approach",
+          "title": "POSIX-Compliant Unix Shell | Systems Programming",
+          "types": [
+            "Low-level systems roles",
+            "C/C++ specific roles"
+          ],
+          "bullets": [
+            "Developed a custom shell capable of parsing and executing user commands with support for piping, redirection, and built-in utilities (cd, exit, history)."
+          ],
+          "technologies": [
+            "Dynamic Memory Management"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "element": {
+      "project": "Secure User Management System | Academic Project",
+      "Options": [
+        {
+          "project": "Secure User Management System | Academic Project",
+          "subtitle": "Full-Stack Node.js Developer",
+          "title": "Secure User Management System | Academic Project",
+          "types": [
+            "Web Developer",
+            "Full-Stack"
+          ],
+          "bullets": [
+            "Architected a RESTful API using Node.js and Express, employing the MVC pattern to separate business logic, routing, and data access."
+          ],
+          "technologies": [
+            "Git"
+          ]
+        },
+        {
+          "project": "Secure User Management System | Academic Project",
+          "subtitle": "Security-Conscious Backend",
+          "title": "Secure User Management System | Academic Project",
+          "types": [
+            "DevSecOps"
+          ],
+          "bullets": [
+            "Engineered a robust authentication system using JWT (JSON Web Tokens) and bcrypt for secure, stateless session management and password hashing."
+          ],
+          "technologies": [
+            "Middleware Design"
+          ]
+        }
+      ]
+    }
+  }
+]
